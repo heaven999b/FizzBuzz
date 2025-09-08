@@ -16,7 +16,7 @@ class FizzBuzz {
             // Print our appropriate result.
             if (divisibleBy3 && divisibleBy5) {
 
-                campus123one();
+                System.out.println("Fizz Buzz");
 
             } else if (divisibleBy3) {
 
@@ -33,9 +33,5 @@ class FizzBuzz {
             }
         i++;
         }
-    }
-
-    private static void campus123one() {
-        System.out.println("Fizz Buzz");
     }
 }
