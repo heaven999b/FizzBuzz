@@ -11,7 +11,7 @@ public class Multiples {
 
     public static int multiples(int n, int a, int b) {
         int su = 0;
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i < n; i++) {
             boolean divisibleByA = i % a == 0;
             boolean divisibleByB = i % b == 0;
 
